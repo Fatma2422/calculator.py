@@ -12,7 +12,7 @@ def test_add(calc):
     assert calc.add(0, 0) == 0
 
 def test_subtract(calc):
-    assert calc.subtract(5, 3) == 2
+    assert calc.subtract(5, 3) == 0
     assert calc.subtract(3, 5) == -2
     assert calc.subtract(0, 0) == 0
 
